@@ -1,0 +1,48 @@
+.me{
+    border-radius: 90px;
+}
+
+.html{
+    font-family: "Nata Sans", sans-serif;
+    font-weight: 300;
+}
+
+.box-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    }
+
+.picture-1 {
+    display: flex;
+    object-fit: cover;
+
+}
+
+.picture-1:hover {
+    position: relative;
+    transition: 1s;
+    transform: scale(1.2);
+}
+
+.picture-2 {
+    display: flex;
+    object-fit: cover;
+
+}
+
+.picture-2:hover {
+    transform: scale(1.3);
+    transition: 1s; 
+}
+
+.picture-3 {
+    display: flex;
+    object-fit: cover;
+}
+
+.picture-3:hover {
+    transition: 1s;
+    transform: scale(1.2);
+}
